@@ -1,0 +1,22 @@
+<%= content_for(:content) do %>
+  <div class="container-fluid main">
+    <!-- Flash -->
+    <div class="row">
+      <div class="col-sm-12">
+        <%= render '/shared/admin/flash_msg' %>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+      <div class="col-sm-12">
+        <%= yield %>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <%= render '/shared/admin/footer' %>
+  </div>
+<% end %>
+
+<%= render template: "layouts/admin/base" %>

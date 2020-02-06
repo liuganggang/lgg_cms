@@ -1,0 +1,14 @@
+zh-CN:
+  activerecord:
+    models:
+      address: 地址
+    attributes:
+      address:
+        name: 姓名
+        phone: 手机号
+
+  simple_form:
+    placeholders:
+      address:
+        name: 真实姓名
+        phone: 联系电话

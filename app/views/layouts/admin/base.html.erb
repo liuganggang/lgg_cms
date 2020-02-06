@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- see http://se.360.cn/v6/help/meta.html -->
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Lgg_cms - <%= t(:app_title) %></title>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'admin/base', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'admin/base', 'data-turbolinks-track': 'reload' %>
+
+    <!--[if lte IE 9]>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <%= yield(:head) %>
+  </head>
+
+  <body class="<%= body_class %>">
+
+    <%= yield(:content) %>
+
+  </body>
+</html>

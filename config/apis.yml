@@ -1,0 +1,17 @@
+default: &default
+  alidayu:
+    appkey: appkey
+    appsecret: appsecret
+  # 头条线索接口
+  toutiao:
+    token: 'token'
+    signature_key: 'signature_key'
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
