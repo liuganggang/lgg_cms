@@ -1,5 +1,9 @@
+// install mini_racer please
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
-@import "bootstrap-sprockets";
-@import "bootstrap";
+// @import "bootstrap-sprockets";
+// @import "bootstrap";
+
+@import "/bootstrap.min";
+@import "/bootstrap-theme.min";
 @import "font-awesome";
 @import "/**/*";

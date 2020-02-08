@@ -3,7 +3,8 @@
     <div class="alert alert-<%= alert_level(level) %>" role="alert">
       <button type="button" class="close" data-dismiss="alert">
         <span aria-hidden="true">&times;</span>
-        <span class="sr-only">Close</span></button>
+        <span class="sr-only">Close</span>
+      </button>
       <%= fa_icon("alert-#{level} lg", text: msg) %>
     </div>
   <% end %>
