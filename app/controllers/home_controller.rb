@@ -1,4 +1,6 @@
-class HomeController < Admin::BaseController
+class HomeController < ApplicationController
+  layout "admin/admin"
+
   def index
   end
 end
