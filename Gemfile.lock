@@ -259,7 +259,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
-  bootstrap-sass (~> 3.4, >= 3.4.1)
+  bootstrap-sass (~> 3.4.1)
   capistrano (~> 3.10)
   capistrano-rails (~> 1.4)
   capistrano-rvm (~> 0.1.2)
@@ -279,7 +279,7 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2)
   redis
-  sassc-rails
+  sassc-rails (>= 2.1.0)
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)

@@ -1,9 +1,0 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-default: &default
-  name: $LABEL
-  phone: 13121988888
-
-address1:
-  <<: *default
-  phone: 13121988880

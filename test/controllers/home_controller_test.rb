@@ -3,7 +3,7 @@ require 'test_helper'
 class HomeControllerTest < ActionDispatch::IntegrationTest
 
   setup do
-    @address = addresses(:default)
+    # @address = addresses(:default)
   end
 
   teardown do
