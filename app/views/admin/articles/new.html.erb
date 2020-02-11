@@ -1,0 +1,16 @@
+
+<%= simple_form_for [:admin, @article] do |f| %>
+  <%= f.association :category %>
+  <%= f.input :title %>
+  <%= f.input :content, input_html: { rows: 20 } %>
+  <%= f.submit 'submit', class: 'btn btn-success' %>
+<% end %>
+
+
+<% content_for :js do %>
+  <script type="text/javascript">
+    tinyMCE.init({
+      selector: 'textarea#article_content'
+    });
+  </script>
+<% end %>

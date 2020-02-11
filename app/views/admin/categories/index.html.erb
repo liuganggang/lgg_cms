@@ -1,0 +1,25 @@
+<h1>Categories</h1>
+
+<%= link_to 'new', new_admin_category_path, class: 'btn btn-info' %>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>title</th>
+      <th>created_at</th>
+      <th>options</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @categories.each do |category| %>
+      <tr>
+        <td><%= category.id %></td>
+        <td><%= category.title %></td>
+        <td><%= category.created_at %></td>
+        <td>a</td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
