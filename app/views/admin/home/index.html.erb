@@ -20,3 +20,17 @@ index
 
 <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
 <button type="button" class="btn btn-link">Link</button>
+
+<div class="row">
+  <div class="col-sm-8">
+    <textarea class="editor" rows='20'></textarea>
+  </div>
+</div>
+
+<% content_for :js do %>
+  <script type="text/javascript">
+    tinyMCE.init({
+      selector: 'textarea.editor'
+    });
+  </script>
+<% end %>
