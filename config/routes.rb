@@ -12,4 +12,6 @@ Rails.application.routes.draw do
     resources :articles
 
   end
+
+  mount LggBlog::API => '/'
 end

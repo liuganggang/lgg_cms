@@ -43,6 +43,9 @@ gem 'devise'
 gem 'tinymce-rails', '< 5'
 gem 'simple_form'
 
+gem 'grape', '~> 1.3'
+gem 'grape-swagger', '~> 1.0'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
