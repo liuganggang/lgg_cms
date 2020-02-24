@@ -41,6 +41,7 @@ gem 'sidekiq'
 gem 'devise'
 
 gem 'tinymce-rails', '< 5'
+gem 'tinymce-rails-langs'
 gem 'simple_form'
 
 gem 'grape', '~> 1.3'
