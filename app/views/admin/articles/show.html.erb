@@ -1,0 +1,10 @@
+
+<%= link_to 'back', [:admin, :articles], class: 'btn btn-default' %>
+
+<h2><%= @article.title %></h2>
+
+<hr />
+
+<div>
+  <%= raw @article.content %>
+</div>

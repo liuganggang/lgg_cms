@@ -20,9 +20,7 @@ class Admin::CategoriesController < Admin::BaseController
     end
   end
 
-  def edit
-
-  end
+  def edit; end
 
   def update
     if @category.update(category_params)
@@ -43,9 +41,7 @@ class Admin::CategoriesController < Admin::BaseController
      redirect_to [:admin, :categories]
   end
 
-  def show
-
-  end
+  def show; end
 
   private
 

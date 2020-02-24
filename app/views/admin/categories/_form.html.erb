@@ -1,0 +1,6 @@
+
+<%= simple_form_for [:admin, @category] do |f| %>
+  <%= f.input :title %>
+  <%= f.submit 'submit', class: 'btn btn-success' %>
+  <%= link_to 'back', [:admin, :categories], class: 'btn btn-default' %>
+<% end %>

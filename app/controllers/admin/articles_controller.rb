@@ -20,9 +20,7 @@ class Admin::ArticlesController < Admin::BaseController
     end
   end
 
-  def edit
-
-  end
+  def edit; end
 
   def update
     if @article.update(article_params)
@@ -43,9 +41,7 @@ class Admin::ArticlesController < Admin::BaseController
      redirect_to [:admin, :articles]
   end
 
-  def show
-
-  end
+  def show; end
 
   private
 
