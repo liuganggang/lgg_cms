@@ -193,7 +193,7 @@ GEM
       net-ssh (>= 2.6.5, < 6.0.0)
     net-ssh (5.2.0)
     nio4r (2.5.2)
-    nokogiri (1.10.7)
+    nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     pg (1.2.2)
@@ -348,7 +348,7 @@ DEPENDENCIES
   pg
   pry-byebug
   pry-rails
-  puma (~> 3.11)
+  puma (~> 3.12)
   rails (~> 5.2)
   redis
   sassc-rails (>= 2.1.0)
